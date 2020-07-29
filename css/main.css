@@ -167,7 +167,7 @@ hr {
 .section {
   text-align: center; }
   .section.cover {
-    background-image: url("../assets/cover-bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.3); }
     .section.cover .title {
@@ -189,9 +189,9 @@ hr {
         color: #d6b161; }
   .section.about {
     position: relative;
-    background-image: url("../assets/about-bg.jpg");
+    background-image: url("../img/IMG_7699.gif");
     background-size: cover;
-    background-position: 50% 40%;
+    background-position: 40% 30%;
     background-repeat: no-repeat;
     text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.3);
     z-index: 1; }
@@ -205,7 +205,7 @@ hr {
       margin-top: 3rem;
       letter-spacing: 1px; }
   .section.experience {
-    background-image: url("../assets/exp-bg.jpg");
+    background-image: url("../img/IMG_7086.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
@@ -342,7 +342,7 @@ hr {
     height: 10rem;
     margin: 1rem auto;
     border-radius: 50%;
-    background: url("../assets/avater.png") center no-repeat;
+    background: url("../img/me.png") center no-repeat;
     background-size: cover; }
   .section.contact .socialMedia {
     display: -webkit-box;
@@ -355,7 +355,7 @@ hr {
     margin: 1rem auto;
     padding: .2rem;
     border-radius: 20px;
-    background-color: #222; }
+    background-color: #225; }
     .section.contact .socialMedia li {
       float: left;
       margin: 0 1.8rem; }
@@ -494,7 +494,7 @@ hr {
       -webkit-animation: r1 infinite linear 5s;
       animation: r1 infinite linear 5s;
       -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.7);
-      box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 20px 25px -15px rgba(209, 18, 18, 0.7);
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s; }

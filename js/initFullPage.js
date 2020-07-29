@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
     anchors:['home', 'about', 'exp', 'skill', 'works', 'contact', 'footer'],
-    sectionsColor: ['rgba(0,0,0,.05)', 'rgba(0,0,0,.05)', 'rgba(0,0,0,.05)', 'rgba(0,0,0,.2)', 'rgba(0,0,0,.2)', 'rgba(0,0,0,.8)', '#222'],
+    sectionsColor: ['rgba(0,0,0,.05)', 'rgba(0,0,0,.05)', 'rgba(0,0,0,.05)', 'rgba(0,0,0,.2)', 'rgba(0,0,0,.2)', 'rgba(217 187 187 / 90%)', '#222'],
     scrollOverflow: true,
     menu: '#header'
   });

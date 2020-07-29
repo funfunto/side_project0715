@@ -1,0 +1,201 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Microsoft JhengHei; }
+
+body {
+  background-color: #eeefff; }
+
+p, h1, h2, h3 {
+  margin: 0; }
+
+hr {
+  width: 900px;
+  margin: 133px auto 76px auto;
+  border: 1px solid #559AC8;
+  border-style: dashed;
+  border-bottom: 0; }
+  hr:after {
+    content: url(../assets/icons_down.png); }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
+#header {
+  width: 1024px;
+  margin: 0 auto; }
+
+.content {
+  width: 944px;
+  margin: 0 auto; }
+
+.bigCover {
+  height: 380px;
+  position: relative;
+  background-image: url("../assets/Hero.png"); }
+  .bigCover .title {
+    position: absolute;
+    top: 89px;
+    left: 380.5px;
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: 3.89px; }
+  .bigCover #selectRegion {
+    position: absolute;
+    top: 255px;
+    left: 293px;
+    width: 452px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    line-height: 21px; }
+
+.hotRegion {
+  position: relative;
+  top: 352px;
+  left: 112px;
+  width: 800px;
+  height: 112px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-family: Microsoft JhengHei; }
+  .hotRegion .subtitle {
+    padding: 20px 0 0 26px;
+    font-size: 18px;
+    color: #000; }
+  .hotRegion .btnList {
+    margin-top: 14px; }
+    .hotRegion .btnList .regionBtn {
+      width: 130px;
+      height: 42px;
+      margin-right: 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      color: #FFF;
+      line-height: 42px; }
+      .hotRegion .btnList .regionBtn:first-child {
+        margin-left: 51px;
+        background: #8A82CC; }
+      .hotRegion .btnList .regionBtn:nth-child(2) {
+        background: #FFA782; }
+      .hotRegion .btnList .regionBtn:nth-child(3) {
+        background: #F5D105; }
+      .hotRegion .btnList .regionBtn:nth-child(4) {
+        background: #559AC8; }
+
+.content {
+  position: relative;
+  text-align: center; }
+  .content .selectedRegion {
+    margin-bottom: 24px;
+    font-size: 36px;
+    color: #8A82CC; }
+  .content .regionCard {
+    display: inline-block;
+    float: left;
+    width: 464px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 36px; }
+    .content .regionCard:nth-child(2n+1) {
+      margin-right: 16px; }
+    .content .regionCard .cover {
+      position: relative;
+      width: 464px;
+      height: 155px;
+      background-size: 100%;
+      background-position: center; }
+      .content .regionCard .cover .location {
+        position: absolute;
+        left: 22px;
+        bottom: 14px;
+        font-size: 24px;
+        color: #FFF; }
+      .content .regionCard .cover .regionName {
+        position: absolute;
+        right: 24px;
+        bottom: 11px;
+        font-size: 16px;
+        color: #FFF; }
+    .content .regionCard .info {
+      position: relative;
+      background-color: #fff; }
+      .content .regionCard .info .bh, .content .regionCard .info .address, .content .regionCard .info .phone {
+        text-align: left;
+        padding-top: 16px; }
+      .content .regionCard .info .phone {
+        padding-bottom: 16px; }
+      .content .regionCard .info .tag {
+        position: absolute;
+        right: 24px;
+        bottom: 19px; }
+      .content .regionCard .info .bh:before {
+        content: url(../assets/icons_clock.png);
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        padding: 0 9px 0 23px; }
+      .content .regionCard .info .address:before {
+        content: url(../assets/icons_pin.png);
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        padding: 0 9px 0 23px; }
+      .content .regionCard .info .phone:before {
+        content: url(../assets/icons_phone.png);
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        padding: 0 9px 0 23px; }
+      .content .regionCard .info .tag:before {
+        content: url(../assets/icons_tag.png);
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        padding: 0 9px 0 23px; }
+  .content .choosePage {
+    margin-bottom: 41px; }
+    .content .choosePage a {
+      font-size: 14px;
+      color: #4A4A4A;
+      text-decoration: none; }
+    .content .choosePage .prev.disable, .content .choosePage .next.disable {
+      pointer-events: none;
+      color: gray; }
+    .content .choosePage .pageNum {
+      margin-right: 19px;
+      padding: 0 5px; }
+      .content .choosePage .pageNum:first-child {
+        margin-left: 29px; }
+      .content .choosePage .pageNum:last-child {
+        margin-right: 29px; }
+      .content .choosePage .pageNum.selected {
+        color: #559AC8; }
+
+.goTop {
+  position: absolute;
+  right: -13px;
+  bottom: 50px; }
+
+#footer {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  background-color: #559AC8; }
+  #footer .title {
+    padding-top: 24px;
+    font-size: 14px;
+    color: #FFF; }
+  #footer .sp {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #FFD366; }
